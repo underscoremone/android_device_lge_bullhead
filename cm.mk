@@ -1,6 +1,8 @@
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+SCREEN_RATIO_PROPORTIONATE := true
+TARGET_SCREEN_ASPECT_RATIO := 16by9
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
